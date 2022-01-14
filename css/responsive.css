@@ -5,6 +5,9 @@
     .nav--toggle--icon{
         display: block;
     }
+    .header{
+        margin-bottom: 5.5rem;
+    }
 
     .nav--menu{
         position: absolute;
@@ -25,4 +28,17 @@
         transform: translateX(0);
     }
 
+    /* Hero */
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+   .hero--info{
+       order: 2;
+   }
+
+   .hero--img--box{
+       text-align: center;
+       margin: 1rem 0;
+   }
 }

@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Unicons link -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!-- custom css link -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <!-- Title -->
     <title>Influencer Gear</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- ---------
         Header
     ----------- -->
     <header class="header">
-        <nav class="navigation">
-            <!-- brand name -->
-            <div class="brand--name">
-                Influencer Products
-            </div>
+      <nav class="navigation">
+        <!-- brand name -->
+        <div class="brand--name">Influencer Products</div>
 
-            <!-- toggle bar -->
-                <input type="checkbox" id="nav--toggle">
-                <label for="nav--toggle" class="nav--toggle--icon">
-                    <i class="uil uil-bars"></i>
-                </label>
+        <!-- toggle bar -->
+        <input type="checkbox" id="nav--toggle" />
+        <label for="nav--toggle" class="nav--toggle--icon">
+          <i class="uil uil-bars"></i>
+        </label>
 
-            <!-- menu with search-bar and shoping cart -->
-            <ul class="nav--menu">
-                <li class="nav--item">
-                    <a href="#" class="nav--list">Home</a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--list">Products</a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--list">Sign in</a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--list">Log in</a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--list nav__different__list">
-                        <i class="uil uil-search"></i>
-                    </a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--list nav__different__list">
-                        <i class="uil uil-shopping-cart-alt"></i>
-                    </a>
-                </li>
-            </ul>
-
-        </nav>
+        <!-- menu with search-bar and shoping cart -->
+        <ul class="nav--menu">
+          <li class="nav--item">
+            <a href="#" class="nav--list">Home</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--list">Products</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--list">Sign in</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--list">Log in</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--list nav__different__list">
+              <i class="uil uil-search"></i>
+            </a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--list nav__different__list">
+              <i class="uil uil-shopping-cart-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <!----------
+        Main
+    ------------>
+    <main>
+        <section class="container">
+            <div class="grid flex hero--section">
+                <!-- hero information -->
+                <div class="hero--info">
+                    <h1 class="hero--heading">
+                        Start Your <span class="primary--color">
+                            Journey
+                        </span> As Influencer
+                    </h1>
+                    <p class="description hero__description">
+                        What is an influencer? An influencer is someone who has: the power to affect the purchasing decisions of others because of his or her authority, knowledge, position, or relationship with his or her audience. a following in a distinct niche, with whom he or she actively engages
+                    </p>
+                    <a href="#" class="btn hero__btn">PreeBook Now<i class="uil uil-arrow-right arrow--btn"></i></a>
+                </div>
+
+                <!-- hero image -->
+                <div class="hero--img--box">
+                    <img src="images/main-camera.png" alt="" class="hero--img">
+                </div>
+            </div>
+        </section>
+    </main>
+  </body>
 </html>
