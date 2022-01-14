@@ -1,0 +1,33 @@
+/* -----------------
+    Google Fonts
+------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
+
+/* -----------------------
+    Base and common code
+------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1400px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* ------------------
+    custom property
+------------------ */
+:root{
+    --accent-color: #CAD5E2;
+    --primary-color: linear-gradient(#253898,#5737D6);
+    --secondary-color: #FF6666;
+    --heading-color: #120E43;
+    --white-color: #fff;
+    --transition: all 250ms ease-in-out;
+    --box-shadow: 5px 5px 15px  rgba(0,0,0,0.4);
+}
