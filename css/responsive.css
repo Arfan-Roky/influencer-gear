@@ -28,6 +28,7 @@
 
   #nav--toggle:checked ~ .nav--menu {
     transform: translateX(0);
+    animation: toggler 2s ease-in-out;
   }
 
   /* Hero */
