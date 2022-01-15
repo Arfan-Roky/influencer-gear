@@ -2,7 +2,6 @@
     Responsive
 ------------------- */
 
-
 /* tablet design with little bit phone  */
 @media (max-width: 868px) {
   .nav--toggle--icon {
@@ -65,16 +64,26 @@
   .none {
     display: none;
   }
+
+  .below--link--btn {
+    margin-right: 0;
+  }
 }
 
 /* Mobile  */
-@media (max-width:600px) {
-    .product--grid{
-      grid-template-columns: 1fr;
-    }
-    .none {
-        display: block;
-      }
-
+@media (max-width: 600px) {
+  .product--grid {
+    grid-template-columns: 1fr;
   }
-  
+  .none {
+    display: block;
+  }
+
+  .hero--info {
+    text-align: center;
+  }
+
+  .below--link--btn {
+    margin-right: 2.2rem;
+  }
+}
