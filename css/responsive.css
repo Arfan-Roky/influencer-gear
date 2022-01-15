@@ -70,12 +70,13 @@
     margin-right: 0;
   }
 
-   .about--img{
-      width: 100%;
+  .about--img {
+    width: 100%;
   }
 
-  .about--background{
-      transform: skew(0deg);
+  .about--background {
+    text-align: center;
+    transform: skew(0deg);
   }
 }
 
@@ -96,5 +97,8 @@
     margin-right: 2.2rem;
   }
 
-  
+  .about--background {
+    text-align: center;
+    transform: skew(0deg);
+  }
 }
