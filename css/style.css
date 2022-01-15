@@ -16,6 +16,7 @@ body {
   max-width: 1400px;
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -302,16 +303,15 @@ li {
     About
 --------------- */
 .about--background{
-    padding: 0 2rem;
-    transform: skew(10deg);
-    
+    padding: 0 1rem;
+    transform: skewY(7deg);
 }
 .about--details {
     margin-right: 2rem;
     background-color: var(--primary-color);
     padding: 0 1rem;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2rem .6rem;
     border-radius: 10px;
   }
   
@@ -331,7 +331,6 @@ li {
   
   .about--description {
     border-left: 4px solid var(--primary-color);
-    padding-left: 1rem;
     text-align: justify;
     font-size: 15px;
     margin: 1rem 0;
@@ -350,6 +349,14 @@ li {
     border-bottom: 3px solid var(--white-color);
     color: white;
   }
+
+  .about--btn{
+      background-color: var(--white-color);
+      color: var(--primary-color);
+      border: none;
+      padding: .2rem .5rem;
+      border-radius: 20px;
+  } 
 
 
 

@@ -69,6 +69,14 @@
   .below--link--btn {
     margin-right: 0;
   }
+
+   .about--img{
+      width: 100%;
+  }
+
+  .about--background{
+      transform: skew(0deg);
+  }
 }
 
 /* Mobile  */
