@@ -1,44 +1,80 @@
 /* ----------------
     Responsive
 ------------------- */
-@media (max-width:800px){
-    .nav--toggle--icon{
-        display: block;
-    }
-    .header{
-        margin-bottom: 5.5rem;
-    }
 
-    .nav--menu{
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(-460px);
-        transition: transform .5s ease-in-out;
-    }
-    
-    .nav--item{
-        margin-bottom: .4rem;
-    }
 
-    #nav--toggle:checked ~ .nav--menu{
-        transform: translateX(0);
-    }
+/* tablet design with little bit phone  */
+@media (max-width: 868px) {
+  .nav--toggle--icon {
+    display: block;
+  }
+  .header {
+    margin-bottom: 5.5rem;
+  }
 
-    /* Hero */
-    .grid{
-        grid-template-columns: 1fr;
-    }
+  .nav--menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-460px);
+    transition: transform 0.5s ease-in-out;
+  }
 
-   .hero--info{
-       order: 2;
-   }
+  .nav--item {
+    margin-bottom: 0.4rem;
+  }
 
-   .hero--img--box{
-       text-align: center;
-       margin: 1rem 0;
-   }
+  #nav--toggle:checked ~ .nav--menu {
+    transform: translateX(0);
+  }
+
+  /* Hero */
+  .grid {
+    grid-template-columns: 1fr;
+    /* text-align: center; */
+  }
+
+  .hero--info {
+    order: 2;
+  }
+
+  .hero--heading {
+    font-size: 40px;
+  }
+
+  .hero--img--box {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .hero--img--box .hero--img {
+    width: 60%;
+  }
+
+  /* product */
+  .rating {
+    justify-content: center;
+  }
+
+  .product--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .none {
+    display: none;
+  }
 }
+
+/* Mobile  */
+@media (max-width:600px) {
+    .product--grid{
+      grid-template-columns: 1fr;
+    }
+    .none {
+        display: block;
+      }
+
+  }
+  
