@@ -306,6 +306,7 @@ li {
   padding: 0 1rem;
   transform: skew(5deg);
   margin-bottom: 6rem;
+  text-align: center;
 }
 .about--details {
   margin-right: 2rem;
